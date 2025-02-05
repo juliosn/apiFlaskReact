@@ -1,0 +1,141 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f3ecea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+/* Estilização do container principal */
+.App {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+/* Título principal */
+h1 {
+  font-size: 26px;
+  color: #4a2c2a;
+  margin-bottom: 15px;
+}
+
+/* Subtítulo */
+h2 {
+  font-size: 20px;
+  color: #5c3d31;
+  margin-bottom: 20px;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 12px;
+  border: 2px solid #d8b6a4;
+  border-radius: 8px;
+  font-size: 14px;
+  background: #fffaf6;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #8c5a52;
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(140, 90, 82, 0.5);
+}
+
+/* Botões */
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Botão principal (Adicionar/Atualizar) */
+button[type="submit"] {
+  background: #8c5a52;
+  color: white;
+}
+
+/* Botão de adicionar */
+.add-button {
+  background: #4a2c2a;
+  color: white;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Botão de editar */
+.edit-button {
+  background: #f4a261;
+  color: white;
+}
+
+/* Botão de excluir */
+.delete-button {
+  background: #e63946;
+  color: white;
+}
+
+/* Lista de livros */
+ul {
+  list-style: none;
+  padding: 0;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* Cada item da lista */
+li {
+  background: #fffaf6;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+li:hover {
+  transform: scale(1.03);
+}
+
+/* Container dos botões de ação */
+.actions {
+  display: flex;
+  gap: 8px;
+  padding-left: 15px;
+}
