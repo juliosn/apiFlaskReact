@@ -1,5 +1,5 @@
 ## About
-<p align="justify"> This project was developed with the purpose of enhancing skills in Angular for front-end development and Spring for building a CRUD API, utilizing SQLite as the database. 
+<p align="justify"> This project was developed with the purpose of enhancing skills in Angular for front-end development and Flask for building a CRUD API, utilizing SQLite as the database. 
 Through this implementation, the project aims to provide hands-on experience in designing and integrating a full-stack application, reinforcing best practices in software development. </p>
 
 ## Technologies Used
